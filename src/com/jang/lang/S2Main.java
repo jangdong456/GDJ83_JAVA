@@ -18,7 +18,7 @@ public class S2Main {
 		flag = t1.equals(t2);
 		System.out.println(flag);
 		// equlas() 
-		// 두 문자열을 비교한다. 주소가 달라고 문자값만 비교함
+		// 두 문자열을 비교한다. 주소가 같지 않더라도 문자값만 비교함
 		
 		String name = "winter";
 		System.out.println("이름입력");

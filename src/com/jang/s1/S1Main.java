@@ -1,24 +1,14 @@
 package com.jang.s1;
 
-
-import com.jang.s2.Korea;
+import com.jang.s2.MidStudent;
 
 public class S1Main {
 	
 	public static void main(String[] args) {
 		
-		Test test = new Test();
-		test.num = 10;
+		MidStudent ms = new MidStudent();
 		
-		
-		Korea korea = new Korea();
-		korea.setPop(20);
-		
-		int p = korea.getPop();
-		System.out.println(p);
-		
-
-		
+		ms.info();
 		
 	}
 }

@@ -3,17 +3,29 @@ package com.jang.s4;
 public class S4Main {
 	
 	public static void main(String[] args) {
-		// main() 메소드에서 사용하려면
-		//company변수 의 주소를 알수 없기에 해당 class 를 가지고옴
-		//클래스명.변수명
-		//클래스 변수명 이라고 부름
-		Car.company ="";
-		System.out.println(Car.company);
+		Tv tv = new Tv();
+		tv.brand = "Samsung";
+		tv.price = 500;
+		tv.point = 50;
+		tv.size = 100;
 		
-		//클래스명.메서드명
-		Car.info();
+		Computer computer = new Computer();
+		computer.brand = "Apple";
+		computer.price = 200;
+		computer.point = 30;
+		computer.cpu = "M3";
 		
-		double a = Math.abs(1.2);
-		System.out.println(a);
+		Phone phone = new Phone();
+		phone.brand = "LG";
+		phone.price = 150;
+		phone.point = 15;
+		phone.color = "Red";
+		
+		Customer custmoer = new Customer();
+		custmoer.don = 100;
+		custmoer.point = 0;
+		
+		custmoer.buy(tv);
 	}
+	
 }

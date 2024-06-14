@@ -1,4 +1,4 @@
-package com.jang.s2.util.collections.s4;
+package com.jang.s4.io;
 
 import java.io.File;
 
@@ -8,14 +8,12 @@ public class FileMain2 {
 	public static void main(String[] args) {
 		File file = new File("C:\\study2");
 		
-//		file.delete();
 		File[] list = file.listFiles();
-
-		
+	
 		for(File s :list) {
 			System.out.println(s.delete());
-			
 		}
+		file.delete();
 		
 	}
 	

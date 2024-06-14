@@ -1,4 +1,4 @@
-package com.jang.s2.util.collections.s4;
+package com.jang.s4.io;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.jang.s2.util.collections.s4;
+package com.jang.s4.io;
 
 import java.io.File;
 
@@ -69,6 +69,8 @@ public class FileMain {
 		
 		
 		System.out.println(file.listFiles());
+		
+		// listFiles() 파일목록들을 불러옴 그래서 배열에담아서 삭제가능
 		File[] test = file.listFiles();
 		
 		for(File s : test) {

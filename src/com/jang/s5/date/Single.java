@@ -1,8 +1,6 @@
 package com.jang.s5.date;
 
 public class Single {
-	
-	
 	//SingleTone(싱글톤) | 어플리케이션 내에서 딱 1개만 객체라는걸 ..
 	private static Single single;
 	
